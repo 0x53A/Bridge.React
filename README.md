@@ -4,6 +4,7 @@ Bindings for [Bridge.NET](http://bridge.net/) for React - write React applicatio
 As well as the basic library calls (such as React.Render and the DOM factory methods like div, span, etc..) there are three base classes to make creating custom components simple in C#; **Component**, **StatelessComponent** and **PureComponent**. Below is a very simple example that illustrates all of this -
 
 	using System;
+	using Bridge;
 	using Bridge.Html5;
 	using Bridge.React;
 
